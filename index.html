@@ -3,19 +3,32 @@ layout: landing
 ---
 
 				<!-- Banner -->
-
+				<video playsinline="" autoplay="" muted="" loop="" poster="/images/banner.jpg" id="bgvid">
+				<source src="http://giant.gfycat.com/SaltyQuarterlyGartersnake.webm" type="video/webm">
+				</video>
 					<section id="banner">
 						<div class="inner">
 							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-
+							<p class="outline">{{ site.description1 }}</p>
+							<p class="outline">{{ site.description2 }}</p>
 							<ul class="actions">
+							 <li>
+
+								 <form id="input-form" action="" method="POST" target="no-target">
+									 <input class="outline" id="input-email" placeholder="Email address" name="email" type="email" style="display: inline-block; width: 70%;">
+									 <button class="button special" id="form-submit" type="submit" style="float:right; width: 30%; padding-left: .5em; padding-right: .5em;">SIGN UP</button>
+								 </form>
+							</li>
+							</ul>
+						</div>
+						<!-- 	<ul class="actions">
 								<li>
 									<span class="button fit special"><a target="_blank" href="https://goo.gl/forms/uPJDgJa2bFuglx1T2" onclick="trackOutboundLink('https://goo.gl/forms/uPJDgJa2bFuglx1T2'); return false;" class="icon fa-envelope"> Beta & News Sign up</a></span>
 								</li>
 							</ul>
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
+						 -->
+						<a href="#one" class="more scrolly outline">Learn More</a>
 					</section>
 
 					<!-- One -->
@@ -34,17 +47,17 @@ layout: landing
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Contact</h2>
-								<p>Youbrawl is still very much in-development. Checkout our socialmedia for more content!</p>
-								<p>For press and other inquiries find our contact information on the dev website.</p>
+								<h2 class="outline">Contact</h2>
+								<p class="outline">Youbrawl is still very much in-development. Checkout our socialmedia for more content!</p>
+								<p class="outline">For press and other inquiries find our contact information on the dev website.</p>
 							</header>
 							<ul class="actions vertical">
 								<li></li>
 								<li></li>
-								<li><span class="button fit"><a target="_blank" href="http://twitter.com/happypwn" onclick="trackOutboundLink('http://twitter.com/happypwn'); return false;" class="icon fa-twitter"> Twitter</a></span></li>
-								<li><span class="button fit"><a target="_blank" href="http://www.facebook.com/KirikoroStudios" onclick="trackOutboundLink('http://www.facebook.com/KirikoroStudios'); return false;" class="icon fa-facebook"> Facebook</a></span></li>
-								<li><span class="button fit"><a target="_blank" href="http://kirikoro.com" onclick="trackOutboundLink('http://kirikoro.com'); return false;" class="icon fa-connectdevelop"> Dev website</a></span></li>
-								<li><span class="button fit"><a target="_blank" href="mailto:pontus.lindgren@kirikoro.com" onclick="trackOutboundLink('mailto:pontus.lindgren@kirikoro.com'); return false;" class="icon fa-envelope"> Email us</a></span></li>
+								<li><span class="button fit outline"><a target="_blank" href="http://twitter.com/happypwn" onclick="trackOutboundLink('http://twitter.com/happypwn'); return false;" class="icon fa-twitter"> Twitter</a></span></li>
+								<li><span class="button fit outline"><a target="_blank" href="http://www.facebook.com/KirikoroStudios" onclick="trackOutboundLink('http://www.facebook.com/KirikoroStudios'); return false;" class="icon fa-facebook"> Facebook</a></span></li>
+								<li><span class="button fit outline"><a target="_blank" href="http://kirikoro.com" onclick="trackOutboundLink('http://kirikoro.com'); return false;" class="icon fa-connectdevelop"> Dev website</a></span></li>
+								<li><span class="button fit outline"><a target="_blank" href="mailto:pontus.lindgren@kirikoro.com" onclick="trackOutboundLink('mailto:pontus.lindgren@kirikoro.com'); return false;" class="icon fa-envelope"> Email us</a></span></li>
 							</ul>
 						</div>
 					</section>
